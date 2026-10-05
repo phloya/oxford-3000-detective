@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&family=PT+Mono&display=swap");
+/* ==== Do Not Give It Back — "Rain from the Sea" (story_style.md) ====
+   Each Anki card is one Tidewell memory card: warm grey mill paper fills the screen.
+   Front: the word alone, a lemon dash, and the filing tab of the fragment.
+   Back: word + translation (one heading), the scene painted on the card (feathered edges),
+   the filing tab on a hairline, the fragment with a lemon underline under the deck word,
+   and the Russian copy folded away in <details>.
+   Scenes are appended by tools\update_design.py as .scene-NAME { background-image }. */
+
+/* ---------- tokens: day "08:10, Hill Park, rain from the sea" ---------- */
+.card {
+  --paper: #ECE9E1; --paper-2: #E2DED4; --rule: #C9CCCB; --rule-2: #A9B0B2;
+  --ink: #1E2830; --ink-2: #4C5862; --ink-3: #7B848B;
+  --lemon: #E2B62C; --lemon-u: rgba(226, 182, 44, .55); --lemon-f: rgba(226, 182, 44, .14);
+  --lid: #B3352B; --jacket: #2E5A86; --cardigan: #53704C; --carbon: #3D4796; --sea: #71858F;
+  --scene-fx: none;
+  --tex: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='a' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .27 0 0 0 0 .28 0 0 0 0 .29 0 0 0 1.6 -.75'/></filter><filter id='b' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.005 .16' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .27 0 0 0 0 .28 0 0 0 0 .29 0 0 0 3.2 -2.05'/></filter><rect width='320' height='320' filter='url(%23a)' opacity='.07'/><rect width='320' height='320' filter='url(%23b)' opacity='.05'/></svg>");
+
+  --serif: "Literata", "PT Serif", Georgia, Cambria, "Times New Roman", serif;
+  --mono: "PT Mono", Consolas, Menlo, "Courier New", monospace;
+  --sans: system-ui, "Segoe UI", Roboto, "PT Sans", Arial, sans-serif;
+  --k: 1;     /* 1.1 above 600px (section 3) */
+  --col: 34rem;
+  --wp: 88px; /* word picture (section 8), 112px above 600px */
+
+  /* 12px line glyphs for the filing tabs: one hand, stroke 1.4, round caps */
+  --g-log: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round'><path d='M2 3.2h8M2 6h8M2 8.8h5.5'/></svg>");
+  --g-card: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><rect x='1.2' y='2.4' width='9.6' height='7.2' rx='1'/><path d='M3.4 5h5.2M3.4 7.2h3.2'/></svg>");
+  --g-box: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><path d='M4.3 8.2C3.4 7.5 3 6.6 3 5.7a3 3 0 0 1 6 0c0 .9-.4 1.8-1.3 2.5M4.8 10.4h2.4'/><path d='M1 2.4l1.2.9M11 2.4l-1.2.9'/></svg>");
+  --g-receipt: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round'><circle cx='6' cy='6' r='4.6'/><circle cx='6' cy='6' r='1.7'/></svg>");
+  --g-report: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><rect x='1.2' y='1.2' width='9.6' height='9.6' rx='1.6'/><circle cx='6' cy='6' r='2.3'/></svg>");
+  --g-news: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><path d='M1.4 2.2h6.8l2.4 2.4v5.2H1.4zM8.2 2.2v2.4h2.4M3.4 6h3.4M3.4 8h5'/></svg>");
+  --g-announce: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><path d='M1.4 4.6h2l3-2.4v7.6l-3-2.4h-2zM8.6 4.2c.8 1 .8 2.6 0 3.6M10.2 3c1.4 1.7 1.4 4.3 0 6'/></svg>");
+  --g-letter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round'><circle cx='6' cy='6' r='4.6'/><path d='M2.4 5c1.2-.9 2.4.9 3.6 0s2.4.9 3.6 0M2.4 7.6c1.2-.9 2.4.9 3.6 0s2.4.9 3.6 0'/></svg>");
+  --g-chat: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'><path d='M2.4 6h.01M6 6h.01M9.6 6h.01'/></svg>");
+  --g-poster: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linejoin='round'><rect x='2.3' y='1.2' width='7.4' height='9.6'/></svg>");
+  --g-sticky: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linejoin='round'><rect x='2' y='2' width='8' height='8'/></svg>");
+  --g-overheard: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'><path d='M6 3L3 6l3 3M9.6 3l-3 3 3 3'/></svg>");
+
+  position: relative; margin: 0; padding: 0; min-height: 100vh; box-sizing: border-box;
+  font-family: var(--serif); font-size: calc(19.5px * var(--k)); line-height: 1.55; text-align: left;
+  color: var(--ink); background-color: var(--paper); background-image: var(--tex); background-size: 320px 320px;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-text-size-adjust: 100%;
+}
+html:has(> body.card) { background: #ECE9E1; }
+
+/* ---------- night "Lost & Found Hour, 00:00–03:00": not an invert ---------- */
+.card.nightMode, .card.night_mode, .nightMode .card, .night_mode .card {
+  --paper: #161C22; --paper-2: #1D252D; --rule: #2C3741; --rule-2: #44525E;
+  --ink: #E8E2D4; --ink-2: #AEB3B5; --ink-3: #7E878D;
+  --lemon: #F0C94A; --lemon-u: rgba(240, 201, 74, .40); --lemon-f: rgba(240, 201, 74, .10);
+  --lid: #D4503F; --jacket: #86AED4; --cardigan: #93B08A; --carbon: #9DA6E6; --sea: #5C6E78;
+  --scene-fx: brightness(.88) saturate(.95);
+  --tex: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='a' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .86 0 0 0 0 .84 0 0 0 0 .78 0 0 0 1.6 -.75'/></filter><filter id='b' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.005 .16' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .86 0 0 0 0 .84 0 0 0 0 .78 0 0 0 3.2 -2.05'/></filter><rect width='320' height='320' filter='url(%23a)' opacity='.045'/><rect width='320' height='320' filter='url(%23b)' opacity='.04'/></svg>");
+}
+html:has(> body.nightMode), html:has(> body.night_mode) { background: #161C22; }
+@media (prefers-color-scheme: dark) {
+  .card:not(.nightMode):not(.night_mode) {
+    --paper: #161C22; --paper-2: #1D252D; --rule: #2C3741; --rule-2: #44525E;
+    --ink: #E8E2D4; --ink-2: #AEB3B5; --ink-3: #7E878D;
+    --lemon: #F0C94A; --lemon-u: rgba(240, 201, 74, .40); --lemon-f: rgba(240, 201, 74, .10);
+    --lid: #D4503F; --jacket: #86AED4; --cardigan: #93B08A; --carbon: #9DA6E6; --sea: #5C6E78;
+    --scene-fx: brightness(.88) saturate(.95);
+    --tex: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='a' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .86 0 0 0 0 .84 0 0 0 0 .78 0 0 0 1.6 -.75'/></filter><filter id='b' x='0' y='0'><feTurbulence type='fractalNoise' baseFrequency='.005 .16' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .86 0 0 0 0 .84 0 0 0 0 .78 0 0 0 3.2 -2.05'/></filter><rect width='320' height='320' filter='url(%23a)' opacity='.045'/><rect width='320' height='320' filter='url(%23b)' opacity='.04'/></svg>");
+  }
+  html:has(> body.card) { background: #161C22; }
+}
+@media (min-width: 600px) { .card { --k: 1.1; --wp: 112px; } }
+
+/* ---------- the column ---------- */
+.page { box-sizing: border-box; width: 100%; max-width: calc(var(--col) * var(--k)); margin: 0 auto;
+  padding: calc(14px * var(--k)) 16px calc(28px * var(--k)); }
+.meta { display: flex; align-items: center; gap: .55em; min-height: 26px; padding-right: 40px;
+  font-family: var(--mono); font-size: calc(11.5px * var(--k)); line-height: 1.2; letter-spacing: .06em;
+  color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.meta .sep { opacity: .7; }
+.word { font-family: var(--serif); font-weight: 600; font-variation-settings: "opsz" 72; letter-spacing: -.01em;
+  line-height: 1.08; color: var(--ink); overflow-wrap: anywhere; hyphens: manual; }
+.example, .example-ru { width: 100%; }
+.strip { display: block; }
+.art-panel i, .art-panel u { display: none; }
+
+/* ---------- the filing tab (the deck's signature shape) ---------- */
+.story-label { position: relative; display: inline-flex; align-items: center; gap: .5em; max-width: 100%; box-sizing: border-box;
+  padding: 5px 11px 4px; font-family: var(--mono); font-size: calc(11.5px * var(--k)); line-height: 1.3;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); font-variant-numeric: tabular-nums;
+  background: var(--paper-2); border: 1px solid var(--rule); border-bottom: 0; border-radius: 4px 4px 0 0; }
+.story-label::before { flex: none; width: 12px; height: 12px; background: currentColor;
+  -webkit-mask: var(--g) center / 12px 12px no-repeat; mask: var(--g) center / 12px 12px no-repeat; }
+/* the hairline the tab stands on, running along the top of the fragment */
+.story-label::after { content: ""; position: absolute; left: calc(100% + 1px); bottom: 0; width: 200vw; height: 0;
+  border-top: 1px solid var(--rule); }
+.text-panel { position: relative; overflow-x: clip; }
+
+/* glyph per kind (scene: plain tab) */
+.doc-log { --g: var(--g-log); } .doc-card { --g: var(--g-card); } .doc-box { --g: var(--g-box); }
+.doc-receipt { --g: var(--g-receipt); } .doc-report { --g: var(--g-report); } .doc-news { --g: var(--g-news); }
+.doc-announce { --g: var(--g-announce); } .doc-letter { --g: var(--g-letter); }
+.doc-chat, .doc-voice { --g: var(--g-chat); } .doc-poster { --g: var(--g-poster); }
+.doc-sticky, .doc-hand { --g: var(--g-sticky); } .doc-overheard { --g: var(--g-overheard); }
+.doc-log .story-label::before, .doc-card .story-label::before, .doc-box .story-label::before,
+.doc-receipt .story-label::before, .doc-report .story-label::before, .doc-news .story-label::before,
+.doc-announce .story-label::before, .doc-letter .story-label::before, .doc-chat .story-label::before,
+.doc-voice .story-label::before, .doc-poster .story-label::before, .doc-sticky .story-label::before,
+.doc-hand .story-label::before, .doc-overheard .story-label::before, .doc-radio .story-label::before { content: ""; }
+/* radio: the ON AIR light is the only filled mark in the deck */
+.doc-radio .story-label::before { width: 6px; height: 6px; margin: 0 3px; border-radius: 50%; background: var(--lid);
+  -webkit-mask: none; mask: none; }
+.doc-announce .story-label::before { background: var(--jacket); }
+
+/* ---------- the fragment ---------- */
+.ex-story { margin-top: 8px; font-size: 1em; line-height: 1.55; color: var(--ink); font-variation-settings: "opsz" 16;
+  overflow-wrap: break-word; }
+.ex-story b, .example-ru b { font-weight: 600; color: inherit; padding: 0 .04em;
+  background: linear-gradient(var(--lemon-u), var(--lemon-u)) 0 100% / 100% .3em no-repeat;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.story-meta { margin-top: 8px; font-family: var(--mono); font-size: calc(11px * var(--k)); letter-spacing: .06em;
+  color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+/* kinds: at most three small differences each */
+.doc-log .ex-story { border-left: 2px solid var(--cardigan); padding-left: 10px; }
+.doc-card .ex-story { background: repeating-linear-gradient(180deg, transparent 0 calc(1.55em - 1px), var(--rule) calc(1.55em - 1px) 1.55em) 0 0 / 100% 4.65em no-repeat; }
+.doc-box .story-label::after { border-top: 3px solid var(--lid); }
+.doc-box .ex-story::after { content: ""; display: block; width: 12px; height: 12px; margin: 2px 0 0 auto; opacity: .4;
+  background: currentColor; -webkit-mask: var(--g-box) center / 12px no-repeat; mask: var(--g-box) center / 12px no-repeat; }
+.doc-receipt { max-width: 24em; }
+.doc-receipt .story-label::after { border-top: 2px dotted var(--rule-2); }
+.doc-receipt .ex-story { color: var(--carbon); }
+.doc-report .story-label::after { border-top-color: var(--rule-2); }
+.doc-report .ex-story { font-family: var(--mono); font-size: calc(16px * var(--k)); line-height: 1.6; }
+.doc-news .story-label::after { border-top: 4px double var(--rule-2); }
+.doc-news .ex-story::first-line { font-variant-caps: small-caps; letter-spacing: .02em; }
+.doc-radio .ex-story, .doc-announce .ex-story { font-style: italic; }
+.doc-letter .ex-story { padding: 4px 0 6px; text-indent: 0; }
+.doc-chat .ex-story, .doc-voice .ex-story { font-family: var(--sans); font-size: calc(17.5px * var(--k)); line-height: 1.5;
+  padding: 9px 14px 10px; border: 1px solid var(--rule-2); border-radius: 14px; }
+.doc-poster .ex-story { font-weight: 600; letter-spacing: .01em; text-align: center; padding: 10px; border: 1px solid var(--ink-3); }
+.doc-sticky .ex-story { padding: 8px 12px; background: var(--lemon-f); transform: rotate(-.6deg); }
+.doc-hand .ex-story { color: var(--jacket); }
+.doc-overheard .ex-story { font-style: italic; color: var(--ink-2); }
+.doc-overheard .ex-story::before { content: "— "; }
+
+/* ============ FRONT: the question ============ */
+/* The learner reads the word with its fragment (the study flow since the start);
+   the scene is the answer's picture and appears only on the back.
+   Word-only front: add .front .ex-story to the display:none rule below. */
+.front .head { margin-top: max(24px, calc(16vh - 40px * var(--k))); text-align: center; }
+.front .word { font-size: clamp(40px, 12vw, 60px); font-size: calc(clamp(40px, 12vw, 60px) * var(--k)); }
+.front .word::after { content: ""; display: block; width: 28px; height: 3px; margin: 14px auto 0; border-radius: 2px; background: var(--lemon); }
+.card:has(.strip-finale) .front .word::after { background: var(--lid); }
+.front .art-panel, .front .story-meta { display: none; }
+.front .example { margin-top: calc(34px * var(--k)); }
+
+/* ============ BACK: the answer ============ */
+.back .meta { margin-bottom: 4px; }
+.back .word { font-size: calc(clamp(34px, 9vw, 44px) * var(--k)); }
+/* Anki scrolls to #answer when the answer opens: keep it at the top of the card, and leave room
+   for AnkiWeb's fixed navbar, so the word and its translation are always on screen */
+hr#answer { display: block; height: 0; margin: 0; border: 0; scroll-margin-top: 64px; }
+.ru { margin-top: 6px; font-family: var(--serif); font-weight: 500; font-variation-settings: "opsz" 24;
+  font-size: calc(25px * var(--k)); line-height: 1.25; color: var(--ink); overflow-wrap: break-word; }
+.back .art-panel { display: block; width: 100%; margin-top: 18px;
+  height: calc(clamp(120px, 26vh, 210px) * var(--k));
+  background-color: transparent; background-size: cover; background-position: center; background-repeat: no-repeat;
+  filter: var(--scene-fx);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 14px, #000 calc(100% - 14px), transparent),
+                      linear-gradient(to bottom, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent, #000 14px, #000 calc(100% - 14px), transparent),
+              linear-gradient(to bottom, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+  mask-composite: intersect; }
+.back .text-panel { margin-top: 14px; }
+
+/* the word picture (section 8): back only, to the right of the word + translation heading */
+.wpic { display: none; }
+.back { position: relative; }
+.back .wpic { display: block; position: absolute; z-index: 1; right: 16px; top: calc(14px * var(--k) + 30px);
+  width: var(--wp); height: var(--wp); object-fit: contain; filter: var(--scene-fx); }
+.back:has(.wpic) .word, .back:has(.wpic) .ru { margin-right: calc(var(--wp) + 10px); }
+.back:has(.wpic) .ru { min-height: calc(var(--wp) - 72px * var(--k)); } /* the scene starts below the picture */
+
+.ru, .back .art-panel, .back .wpic { animation: answer-in .18s ease-out both; }
+@keyframes answer-in { from { opacity: 0; } }
+
+/* the Russian copy: the back of the card, folded away */
+.ru-hint { margin-top: 20px; }
+.ru-hint > summary { display: inline-flex; align-items: center; gap: .6em; padding: 6px 0; cursor: pointer; list-style: none;
+  user-select: none; -webkit-user-select: none; font-family: var(--mono); font-size: calc(11.5px * var(--k));
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); -webkit-tap-highlight-color: transparent; }
+.ru-hint > summary::-webkit-details-marker { display: none; }
+.ru-hint > summary::before { content: ""; width: 0; height: 0; border-style: solid; border-width: 4.5px 0 4.5px 6.5px;
+  border-color: transparent transparent transparent currentColor; transition: transform .15s; }
+.ru-hint[open] > summary::before { transform: rotate(90deg); }
+.example-ru { margin-top: 6px; }
+.example-ru .art-panel { display: none; }
+.example-ru .ex-story { font-size: calc(17.5px * var(--k)); line-height: 1.5; color: var(--ink-2); font-style: normal;
+  font-family: var(--serif); }
+.example-ru .doc-chat .ex-story, .example-ru .doc-voice .ex-story { font-family: var(--sans); }
+.example-ru .doc-report .ex-story { font-family: var(--mono); font-size: calc(15px * var(--k)); }
+.example-ru .doc-overheard .ex-story, .example-ru .doc-radio .ex-story, .example-ru .doc-announce .ex-story { font-style: italic; }
+.example-ru .ex-story b { background-image: linear-gradient(var(--lemon-f), var(--lemon-f)); background-size: 100% .45em; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ru, .back .art-panel { animation: none; }
+  .ru-hint > summary::before { transition: none; }
+}
+
+/* ---------- text-to-speech: a small quiet button at the right of the meta line ---------- */
+.tts { font-size: 0; line-height: 0; position: absolute; z-index: 5;
+  top: calc(14px * var(--k) - 1px); right: max(16px, calc(50% - var(--col) * var(--k) / 2 + 16px)); }
+.tts > :not(.replay-button):not(a) { display: none !important; }
+.tts .replay-button, .replay-button { display: inline-block; margin: 0 !important; padding: 0; opacity: .85; }
+.tts .replay-button svg, .replay-button svg { width: 26px !important; height: 26px !important; display: block; }
+.replay-button svg circle { fill: var(--paper-2); stroke: var(--rule-2); stroke-width: 2.5; }
+.replay-button svg path { fill: var(--ink-2); stroke: none; }
