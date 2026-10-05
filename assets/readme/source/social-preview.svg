@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="t d">
+  <title id="t">Do Not Give It Back</title>
+  <desc id="d">Превью ссылки: колода Anki, 3060 слов Oxford 3000 в одной истории.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1280" height="640" rx="0"/></clipPath>
+    <linearGradient id="veil" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#161C22"/><stop offset=".36" stop-color="#161C22"/>
+      <stop offset=".58" stop-color="#161C22" stop-opacity=".72"/><stop offset=".82" stop-color="#161C22" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#161C22" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="640" fill="#161C22"/>
+    <svg x="384" y="0" width="896" height="640" viewBox="40 40 330 200" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="hb-g"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="2.5"/></filter>
+<filter id="hb-n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .17 0 0 0 0 .18 0 0 0 0 .2 1.3 0 0 0 -.45"/></filter>
+<linearGradient id="hb-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="116"><stop offset="0" stop-color="#363F48"/><stop offset=".5" stop-color="#4D5861"/><stop offset=".8" stop-color="#8A8A80"/><stop offset=".9" stop-color="#D2B880"/><stop offset="1" stop-color="#B8AC8E"/></linearGradient>
+<radialGradient id="hb-glow"><stop offset="0" stop-color="#F2DA9C" stop-opacity=".95"/><stop offset=".6" stop-color="#E7C783" stop-opacity=".45"/><stop offset="1" stop-color="#E7C783" stop-opacity="0"/></radialGradient>
+<linearGradient id="hb-sea" gradientUnits="userSpaceOnUse" x1="0" y1="113" x2="0" y2="200"><stop offset="0" stop-color="#9A927C"/><stop offset=".18" stop-color="#6C7478"/><stop offset=".6" stop-color="#4C5860"/><stop offset="1" stop-color="#3A454D"/></linearGradient>
+<linearGradient id="hb-deck" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="260"><stop offset="0" stop-color="#5A5C58"/><stop offset=".35" stop-color="#454A4B"/><stop offset="1" stop-color="#2D3236"/></linearGradient>
+<linearGradient id="hb-iron" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7A7160"/><stop offset=".28" stop-color="#4A4F52"/><stop offset=".7" stop-color="#2E3438"/><stop offset="1" stop-color="#1F2428"/></linearGradient>
+<path id="hb-r1" d="M146,206 C186,200 230,176 270,151"/>
+<path id="hb-r2" d="M120,206 Q133,215 146,206"/>
+<path id="hb-r3" d="M119,211 Q133,220 147,211"/>
+<path id="hb-r4" d="M120,212 C104,222 116,234 96,239 C78,243 66,236 52,243"/>
+</defs>
+<style>
+.hb-ro{fill:none;stroke:#8E8168;stroke-width:4.6;stroke-linecap:round}
+.hb-ly{fill:none;stroke:#5C5343;stroke-width:4.6;stroke-dasharray:1.5 2.3;opacity:.6}
+.hb-hi{fill:none;stroke:#E2CF9E;stroke-width:1.1;opacity:.75;stroke-linecap:round}
+.hb-gr{fill:none;stroke:#2B3035;stroke-width:1;opacity:.65;stroke-linecap:round}
+.hb-gl{}
+.hb-sh{}
+
+
+
+</style>
+
+<!-- sky -->
+<rect width="400" height="116" fill="url(#hb-sky)"/>
+<ellipse cx="118" cy="103" rx="175" ry="14" fill="url(#hb-glow)"/>
+<g filter="url(#hb-g)">
+<path d="M0,0H400V84C375,90 352,80 330,86C304,93 282,83 256,89C230,95 206,86 180,92C152,97 128,89 102,93C72,97 46,89 20,95L0,96Z" fill="#424C55" opacity=".9"/>
+<path d="M-5,40C30,30 70,46 110,38C150,30 190,48 230,40C270,32 320,50 405,42V70C360,76 320,64 280,72C240,79 200,66 160,74C120,81 70,68 30,76L-5,78Z" fill="#56626B" opacity=".55"/>
+<path d="M20,95C46,89 72,97 102,93C128,89 152,97 180,92C206,86 230,95 256,89" fill="none" stroke="#C9A867" stroke-width="1.4" opacity=".55"/>
+</g>
+<path d="M300,14l-9,22M318,8l-10,25M336,18l-9,22M352,6l-10,26M370,16l-9,23M388,10l-10,25M326,46l-8,20M362,44l-8,21M392,48l-8,20M344,58l-6,16" stroke="#CDD2D3" stroke-width=".6" opacity=".14"/>
+
+<!-- far shore: Old Port boats, Pier 9 and the Keep -->
+<g filter="url(#hb-g)">
+<path d="M0,111H112V117H0Z" fill="#59636A"/>
+<path d="M18,111l2,-5h22l3,5ZM56,111l2,-6h26l3,6ZM90,111l1,-4h15l2,4Z" fill="#646E75"/>
+<path d="M30,106V86M70,105V82M64,105L70,84M98,107V92" stroke="#646E75" stroke-width=".8"/>
+<path d="M118,108H252V112H118Z" fill="#2F363B"/>
+<path d="M122,112v6M132,112v6M142,112v6M152,112v6M162,112v6M172,112v6M182,112v6M192,112v6M202,112v6M212,112v6M222,112v6M232,112v6M242,112v6M251,112v6" stroke="#2F363B" stroke-width="1"/>
+<path d="M182,108V96H187L188,90H193V94H199L200,86H205L206,93L212,95L214,91H219L220,99H226L227,103H232V108Z" fill="#262C30"/>
+<path d="M189,99h2v4h-2ZM209,98h2v5h-2ZM216,95h1.6v3h-1.6Z" fill="#A89670"/>
+<path d="M166,102H248M168,101v7M174,101v7M180,101v7M186,101v7M192,101v7M198,101v7M204,101v7M210,101v7M216,101v7M222,101v7M228,101v7M234,101v7M240,101v7M246,101v7" stroke="#2A3035" stroke-width=".7"/>
+<path d="M121,108v-3" stroke="#2A3035" stroke-width="1"/>
+</g>
+<circle cx="121" cy="104" r="5" fill="#B3352B" opacity=".25"/>
+<circle cx="121" cy="104" r="1.7" fill="#C9473B"/>
+
+<!-- water -->
+<rect y="113" width="400" height="90" fill="url(#hb-sea)"/>
+<rect x="120" y="117" width="2" height="16" fill="#B3352B" opacity=".3"/>
+<g class="hb-sh" stroke="#EFD597" stroke-linecap="round">
+<path d="M84,117h30M126,117h22M70,120h18M98,120h40M150,121h14M80,124h26M116,124h20M92,128h18M122,128h12M86,133h14M108,133h16M96,139h12M118,140h8M100,147h10" stroke-width="1.2"/>
+</g>
+<path d="M0,131H60M150,136H250M30,150H90M140,158H240M10,176H70M150,180H260" stroke="#8C979C" stroke-width=".7" opacity=".3"/>
+
+<!-- Bruno's boat under a tarp -->
+<g filter="url(#hb-g)">
+<ellipse cx="86" cy="176" rx="36" ry="3" fill="#2E383F" opacity=".5"/>
+<path d="M52,160L119,158Q117,170 106,174H63Q54,170 52,160Z" fill="#3C454B"/>
+<path d="M72,163L93,162V171H74Z" fill="#B7A586" opacity=".85"/>
+<path d="M56,161Q60,148 86,146Q111,147 116,159Z" fill="#8B8571"/>
+<path d="M70,149l-2,11M86,146v14M102,148l2,11" stroke="#5D594C" stroke-width=".7"/>
+</g>
+
+<!-- the ferry Grey Lady -->
+<g filter="url(#hb-g)">
+<path d="M290,188H400V198H296Z" fill="#2E383E" opacity=".55"/>
+<path d="M292,138L294,108L400,104V136Z" fill="#CECCC3"/>
+<path d="M290,109L400,103V106.5L292,112Z" fill="#E4E0D4"/>
+<path d="M318,104L320,88L366,86L368,102Z" fill="#D8D6CD"/>
+<path d="M323,92L363,90V96L323,98Z" fill="#3E474D"/>
+<path d="M345,86V66" stroke="#3A4248" stroke-width="1.2"/>
+<path d="M300,115h8v7h-8ZM314,115h8v7h-8ZM328,114h8v7h-8ZM370,113h8v7h-8ZM384,113h8v7h-8Z" fill="#4A545B"/>
+<path d="M342,114h8v7h-8ZM356,113h8v7h-8Z" fill="#E2B62C" opacity=".8"/>
+<path d="M262,142L400,134V184L292,186Q272,170 262,142Z" fill="#566067"/>
+<path d="M262,142L400,134V139L264,147Z" fill="#7D878C"/>
+<path d="M292,186L400,184V188H294Z" fill="#2F383E"/>
+<path d="M266,138L292,136" stroke="#3A4248" stroke-width=".8"/>
+<path d="M262,142Q272,170 292,186" fill="none" stroke="#D1B47A" stroke-width="1.2" opacity=".6"/>
+<ellipse cx="271" cy="151" rx="2.6" ry="2" fill="#262D32"/>
+</g>
+<circle cx="345" cy="65" r="1.3" fill="#F3E9C6"/>
+
+<!-- gulls -->
+<g class="hb-gl" fill="none" stroke-linecap="round">
+<path d="M224,58q5,-5 9,0q4,-5 9,0" stroke="#ECE9E1" stroke-width="1.6"/>
+<path d="M224,58l-2,1M242,58l2,1" stroke="#2A3238" stroke-width="1.4"/>
+</g>
+<g fill="none" stroke-linecap="round">
+<path d="M268,74q4,-4 7,0q3,-4 7,0" stroke="#E2DED4" stroke-width="1.3"/>
+<path d="M268,74l-1.5,.8M282,74l1.5,.8" stroke="#2A3238" stroke-width="1.1"/>
+</g>
+
+<!-- the wet planks of Ferry Pier -->
+<path d="M0,204L400,194V260H0Z" fill="url(#hb-deck)"/>
+<path d="M0,204L400,194" stroke="#A39878" stroke-width="1" opacity=".7"/>
+<path d="M0,211L400,202M0,220L400,212M0,232L400,225M0,248L400,242" stroke="#262B2F" stroke-width=".8" opacity=".6"/>
+<path d="M60,205v6M190,205v7M310,197v6M30,213v9M250,206v8M370,206v8M120,221v11M290,216v11M80,234v14M220,229v14M350,228v14" stroke="#262B2F" stroke-width=".7" opacity=".5"/>
+<ellipse cx="118" cy="214" rx="90" ry="8" fill="url(#hb-glow)" opacity=".35"/>
+<path d="M60,208h40M120,207h50M80,216h30M140,226h34M70,238h22" stroke="#E6CB8D" stroke-width="1" opacity=".3"/>
+
+<!-- timetable board -->
+<path d="M352,176l18,40h-8l-16,-40Z" fill="#23292D" opacity=".22"/>
+<path d="M336,168h3.5v48h-3.5Z" fill="#2B3135"/>
+<path d="M318,150h38v24h-38Z" fill="#3E464B"/>
+<path d="M321,153h32v18h-32Z" fill="#8F9393"/>
+<path d="M324,157h12M339,157h11M324,161h9M339,161h12M324,165h13M339,165h8" stroke="#4E565C" stroke-width="1"/>
+
+<!-- pier-end post with the green light -->
+<path d="M44,232L80,252" stroke="#1F2427" stroke-width="10" opacity=".3"/>
+<path d="M29,152h13v84h-13Z" fill="#22282C"/>
+<path d="M27,140h17v12h-17Z" fill="#2A3034"/>
+<circle cx="35.5" cy="146" r="8" fill="#7DB08A" opacity=".22"/>
+<circle cx="35.5" cy="146" r="2.4" fill="#9CC9A6"/>
+<path d="M33,236v14" stroke="#7DB08A" stroke-width="2" opacity=".2"/>
+
+<!-- focal: bollard and mooring rope -->
+<ellipse cx="152" cy="226" rx="24" ry="4.5" fill="#1C2124" opacity=".5"/>
+<ellipse cx="133" cy="222" rx="17" ry="4" fill="#262C30"/>
+<path d="M121,222L122,199H144L145,222Z" fill="url(#hb-iron)"/>
+<path d="M117,196Q117,186 133,186Q149,186 149,196Q133,200 117,196Z" fill="url(#hb-iron)"/>
+<ellipse cx="133" cy="187.5" rx="15.5" ry="3.6" fill="#4A4F53"/>
+<path d="M119,187.5Q121,184.5 132,184" fill="none" stroke="#DCC083" stroke-width="1.2" opacity=".85"/>
+<path d="M122.5,203v16" stroke="#C7AE78" stroke-width="1" opacity=".5"/>
+<use href="#hb-r4" class="hb-ro"/><use href="#hb-r4" class="hb-ly"/><use href="#hb-r4" class="hb-hi" transform="translate(-.6,-1.3)"/>
+<use href="#hb-r3" class="hb-ro"/><use href="#hb-r3" class="hb-ly"/><use href="#hb-r3" class="hb-hi" transform="translate(0,-1.4)"/>
+<use href="#hb-r2" class="hb-ro"/><use href="#hb-r2" class="hb-ly"/><use href="#hb-r2" class="hb-hi" transform="translate(0,-1.4)"/>
+<use href="#hb-r1" class="hb-ro"/><use href="#hb-r1" class="hb-ly"/><use href="#hb-r1" class="hb-hi" transform="translate(-.4,-1.4)"/>
+<path d="M50,240l4,6M47.5,241.5l4,5.5" stroke="#5C5343" stroke-width="1.2"/>
+<path class="hb-gr" d="M150,209.5C160,207.5 168,206.5 178,204.5M184,203C200,198 214,190 224,184M231,180C244,172 256,165 266,157"/>
+<path class="hb-gr" d="M121,214.5Q127,220 133,221M137,221Q143,219 147,215M109,224C111,230 108,236 98,241M84,245C76,245 70,242 62,246"/>
+<path class="hb-gr" d="M146.4,199.5l.4,7M147,213.5l.6,8M149.2,194l-1.6,3.6"/>
+
+<!-- paper grain -->
+<rect width="400" height="260" filter="url(#hb-n)" opacity=".3" style="mix-blend-mode:multiply"/>
+</svg>
+    <rect width="1280" height="640" fill="url(#veil)"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="92" font-weight="700" fill="#EEE9DD" letter-spacing="-.5"><text x="87" y="160">Do Not</text><text x="87" y="266">Give It Back</text></g>
+  <rect x="87" y="312" width="73" height="7" rx="3" fill="#E2B62C"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="37" fill="#EEE9DD"><text x="87" y="391">Учи 3060 английских слов,</text><text x="87" y="443">читая один детектив в Anki</text></g>
+  <rect x="87" y="494" width="16" height="16" rx="3" fill="#B3352B"/>
+  <text x="120" y="509" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#B4BABD">Oxford 3000 · A1 → B2 · 179 серий · перевод на русский</text>
+</svg>
