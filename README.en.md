@@ -135,8 +135,6 @@ You can reread the episodes you have passed as a book, with scenes and translati
 
 **Can I shuffle the cards?** No. The order of new cards is the order of the story.
 
-**Are there spoilers here?** No. This README and the screenshots show only the beginning: the prologue and the first episodes.
-
 **Does it work offline?** Yes. Without a connection the Google Fonts do not load and the cards fall back to system fonts.
 
 **Can I study on AnkiWeb?** Yes, after a sync. AnkiWeb has no text-to-speech; the ▶ button works in Anki desktop and AnkiDroid.
