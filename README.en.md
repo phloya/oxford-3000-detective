@@ -6,17 +6,13 @@
 
 **An Anki deck in which all 3,060 Oxford 3000 words (A1–B2) form one mystery novel.** Learn 17 words a day and you read one episode.
 
-> **Translations are Russian.** The deck is made for Russian speakers: every word and every fragment has a Russian translation.
+> **Translations are in Russian.** The deck is made for Russian speakers.
 
 > Tidewell is a rainy port city where people forget their own lives. So everybody writes cards. A grey box, Item 1681, arrives at Lost Property with someone's life inside and a note: "Do not give this back to me. Even if I ask."
 
 <p align="center">
-  <a href="#quick-start"><b>Download the deck</b></a> · <a href="#whats-inside">What's inside</a> · <a href="#how-it-is-built">For developers</a> · <a href="#faq">FAQ</a>
+  <a href="#how-to-install"><b>Download the deck</b></a> · <a href="#whats-inside">What's inside</a> · <a href="#the-book">The book</a> · <a href="#how-it-is-built">For developers</a> · <a href="#faq">FAQ</a>
 </p>
-
-## The problem
-
-A typical deck is a list: "word — translation" and a random dictionary example. The examples have nothing to do with each other, so a new word has nothing to hold on to, and reviews quickly turn into a chore that is easy to skip.
 
 ## What it looks like
 
@@ -24,17 +20,13 @@ A typical deck is a list: "word — translation" and a random dictionary example
   <img src="./assets/readme/proof.png" width="100%" alt="The back of the real card waiter: on a desktop in the day theme and on a phone in the night theme with the fragment translation opened">
 </p>
 
-A real card from episode 3, rendered by Anki's own engine: the back on a desktop in the day theme and on a phone at night, with the fragment translation opened. More screenshots are in [`assets/readme/cards`](./assets/readme/cards).
+A screenshot from Anki: a card from episode 3 on a desktop (day) and on a phone (night). More screenshots are in [`assets/readme/cards`](./assets/readme/cards).
 
 ## What's inside
 
 ### Every card is a fragment of one story
 
-**What it does.** 3,060 cards form 179 episodes of 17 new words each. A fragment is one or two sentences built around the word, styled as a document of the city: a Lost Property log, a card from the box, a police report, a receipt, a night radio show, an overheard line.
-
-**Why it matters.** You remember the word together with a scene, and the next episode is a reason to come back tomorrow.
-
-**The idea behind it.** Connected meaning is easier to remember than isolated facts: a new word gets something to attach to.
+3,060 cards form 179 episodes of 17 new words each. A fragment is one or two sentences with the word, styled as a document of the city: a Lost Property log, a card from the box, a police report, a receipt, a night radio show, an overheard line. You remember the word together with a scene, and the next episode is a reason to come back tomorrow.
 
 <p align="center">
   <img src="./assets/readme/anatomy.png" width="100%" alt="Front and back of the card waiter with marks 1 to 6">
@@ -47,23 +39,17 @@ A real card from episode 3, rendered by Anki's own engine: the back on a desktop
 5. A scene of the place where it happens.
 6. The fragment translation — on tap.
 
-### The book brings words back
+### The story brings words back
 
-**What it does.** Each episode reuses words from the episodes 1, 2, 4, 8, 16, 32, 64 and 128 days back — more than 1,100 such returns in the text.
-
-**Why it matters.** Anki reviews the card; the story shows you the word again, in a new situation and next to new words.
-
-**The idea behind it.** Spaced repetition: memory holds better when encounters are spread out with growing gaps. Anki itself is built on the same principle.
+Each episode reuses words from the episodes 1, 2, 4, 8, 16, 32, 64 and 128 days back — more than 1,100 returns in total. Anki reviews the card; the story brings back the word itself, in a new scene and next to new words (spaced repetition).
 
 <p align="center">
   <img src="./assets/readme/returns-en.svg" width="100%" alt="Diagram: today's episode reuses words from the episodes 1, 2, 4, 8, 16, 32, 64 and 128 days back">
 </p>
 
-### The level grows with the book
+### The level grows with the story
 
-**What it does.** The first 30 episodes use only A1 and A2 words. Then B1 joins, and by the end of Part 1 (episode 143) only B1 is left. Part 2, episodes 144–178, is B2.
-
-**Why it matters.** You can start from zero; the difficulty grows gradually.
+The first 30 episodes use only A1 and A2 words, so you can start from zero. Then B1 joins, and by the end of Part 1 (episode 143) only B1 is left. Part 2, episodes 144–178, is B2.
 
 <p align="center">
   <img src="./assets/readme/levels-en.svg" width="100%" alt="Chart: share of A1, A2, B1 and B2 words across the episodes; in Part 1 A1 falls and B1 rises, Part 2 is all B2">
@@ -73,11 +59,7 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 
 ### Understand first, then check
 
-**What it does.** The word's translation sits right under the word. The translation of the whole fragment is folded away until you tap it.
-
-**Why it matters.** You work through the English text yourself, and the translation becomes a check.
-
-**The idea behind it.** Trying to understand or recall on your own makes memory stronger than reading a ready answer — the testing effect.
+The fragment translation is folded: you work through the English yourself, then check. That makes memory stronger (the testing effect).
 
 <p align="center">
   <img src="./assets/readme/translation.png" width="100%" alt="Two phone screens: the back of a card with the fragment translation folded and opened">
@@ -85,11 +67,7 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 
 ### Pictures for memory
 
-**What it does.** 900 word pictures and 15 place scenes in one style, with day and night themes.
-
-**Why it matters.** An image is one more hook: the word and the picture come back together.
-
-**The idea behind it.** A word plus an image leaves two traces in memory instead of one (dual coding).
+900 word pictures and 15 place scenes in one style, with day and night themes. A word with a picture is easier to remember (dual coding).
 
 <p align="center">
   <img src="./assets/readme/pictures.png" width="100%" alt="20 word pictures: umbrella, lemon, bicycle, listen, ticket, wait and more">
@@ -103,20 +81,24 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 </p>
 </details>
 
-## Quick start
+## How to install
 
-1. Download the deck (4 MB, pictures included): [`Do-Not-Give-It-Back-Oxford-3000.apkg`](./deck/Do-Not-Give-It-Back-Oxford-3000.apkg). Direct link:
-   ```text
-   https://github.com/phloya/oxford-3000-detective/raw/main/deck/Do-Not-Give-It-Back-Oxford-3000.apkg
-   ```
-2. Import it:
-   - **Anki desktop:** File → Import. Enable *Import deck presets* to get 17 new cards a day.
-   - **AnkiDroid:** ⋮ → Import, or open the file on the phone.
-   - **iPhone/iPad (AnkiMobile):** open the file and share it to AnkiMobile.
-   - **AnkiWeb** cannot import `.apkg` files: import on a computer or phone, then sync.
-3. Study in order. New cards follow the story — **do not randomize them**.
+1. Install Anki: [desktop](https://apps.ankiweb.net) and [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) are free, [iPhone and iPad](https://apps.apple.com/app/ankimobile-flashcards/id373493387) is paid.
+2. Download [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/oxford-3000-detective/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) from [Releases](../../releases/latest).
+3. Open the file in Anki:
+   - **Desktop:** double-click the file or choose File → Import. Enable *Import deck presets* to get 17 new cards a day.
+   - **Android:** open the file and choose AnkiDroid.
+   - **iPhone and iPad:** open the file in the Files app, tap Share and choose AnkiMobile.
+4. Study in order: new cards follow the story, do not shuffle them.
 
-You can reread the episodes you have passed as a book, with scenes and translation on tap: **[open the book](https://phloya.github.io/oxford-3000-detective/book/)** (Russian interface). The next episode opens only when you press the button, so there are no spoilers.
+## The book
+
+[The book](https://phloya.github.io/oxford-3000-detective/book/) is a website with the deck's episodes as continuous text, for rereading what you have passed like a novel. You do not need it to study.
+
+- It opens in the browser, nothing to install. The interface is in Russian.
+- Only the prologue is open at first. When you pass the next episode in Anki, press "Открыть: Серия N" (Open: Episode N) at the bottom. The other episodes stay closed, so there are no spoilers.
+- "перевод" under a card shows its translation; "Весь перевод" shows the translation of the whole episode.
+- Opened episodes are remembered in this browser only. The book is not connected to Anki: on another device you open the episodes again.
 
 ## How it is built
 
@@ -131,13 +113,9 @@ You can reread the episodes you have passed as a book, with scenes and translati
 
 ## FAQ
 
-**What level do I need?** A1 is fine: the first 30 episodes use only A1 and A2 words.
-
-**Can I shuffle the cards?** No. The order of new cards is the order of the story.
-
 **Does it work offline?** Yes. Without a connection the Google Fonts do not load and the cards fall back to system fonts.
 
-**Can I study on AnkiWeb?** Yes, after a sync. AnkiWeb has no text-to-speech; the ▶ button works in Anki desktop and AnkiDroid.
+**Can I study on AnkiWeb?** Yes, but you cannot import the deck there: import it on a computer or phone, then sync. AnkiWeb has no text-to-speech; the ▶ button works in Anki desktop and AnkiDroid.
 
 ## License and links
 
