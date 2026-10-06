@@ -27,7 +27,7 @@ The second line removes the space kept for the picture.
 
 ## New cards per day
 
-Deck gear → **Options** → **Daily limits** → **New cards/day**. One episode is 17 cards. To read more on a given day, raise the limit for today.
+Deck gear → **Options** → **Daily Limits** → **New cards/day**. One episode is 17 cards. To read more on a given day, raise the limit for today.
 
 Do not randomize new cards: their order is the order of the story.
 

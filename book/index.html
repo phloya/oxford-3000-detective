@@ -199,7 +199,7 @@ function renderReader() {
   const ep = DATA[current];
   let html = "";
   if (ep.part === 2 && (current === 0 || DATA[current - 1].part === 1)) html += '<div class="part">Часть вторая</div>';
-  html += '<div class="ep-head"><div class="tag">Одна серия — один день в Anki</div>' +
+  html += '<div class="ep-head"><div class="tag">Одна серия — 17 новых карточек в Anki</div>' +
           '<h2>' + epTitle(current) + '</h2>' +
           '<p>' + ep.items.length + ' карточек. «Перевод» под карточкой открывает русский текст и слово дня.</p>' +
           (ep.s && SCENES[ep.s] ? '<div class="scene" role="img" aria-label="" style="background-image:url(&quot;' + SCENES[ep.s] + '&quot;)"></div>' : '') +
