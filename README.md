@@ -77,7 +77,7 @@
 ## Как установить
 
 1. Поставь Anki: [на компьютер](https://apps.ankiweb.net) и [на Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) — бесплатно, [на iPhone и iPad](https://apps.apple.com/app/ankimobile-flashcards/id373493387) — платно.
-2. Скачай [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/oxford-3000-detective/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) из [Releases](../../releases/latest).
+2. Скачай [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) из [Releases](../../releases/latest).
 3. Открой файл в Anki:
    - **Компьютер:** дважды щёлкни по файлу или выбери «Файл → Импортировать» (File → Import). Включи галочку «Импортировать конфигурации колод» (Import any deck presets) — будет 15 новых карточек в день.
    - **Android:** открой файл и выбери AnkiDroid.
@@ -86,7 +86,7 @@
 
 ## Книга
 
-**[Книга](https://phloya.github.io/oxford-3000-detective/book/) — пройденные серии сплошным текстом, как главы романа.** Для учёбы не обязательна.
+**[Книга](https://phloya.github.io/wordkeep/book/) — пройденные серии сплошным текстом, как главы романа.** Для учёбы не обязательна.
 
 - Открывается в браузере, ставить ничего не нужно.
 - Сначала открыт только пролог. Прошёл серию в Anki — нажми «Открыть: Серия N». Без спойлеров.

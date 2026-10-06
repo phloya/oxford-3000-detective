@@ -79,7 +79,7 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 ## How to install
 
 1. Install Anki: [desktop](https://apps.ankiweb.net) and [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) are free, [iPhone and iPad](https://apps.apple.com/app/ankimobile-flashcards/id373493387) is paid.
-2. Download [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/oxford-3000-detective/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) from [Releases](../../releases/latest).
+2. Download [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) from [Releases](../../releases/latest).
 3. Open the file in Anki:
    - **Desktop:** double-click the file or choose File → Import. Enable *Import any deck presets* to get 15 new cards a day.
    - **Android:** open the file and choose AnkiDroid.
@@ -88,7 +88,7 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 
 ## The book
 
-**[The book](https://phloya.github.io/oxford-3000-detective/book/) shows the episodes you have passed as continuous text, like chapters of a novel.** You do not need it to study.
+**[The book](https://phloya.github.io/wordkeep/book/) shows the episodes you have passed as continuous text, like chapters of a novel.** You do not need it to study.
 
 - It opens in the browser, nothing to install. The interface is in Russian.
 - Only the prologue is open at first. When you pass an episode in Anki, press "Открыть: Серия N" (Open: Episode N). No spoilers.
