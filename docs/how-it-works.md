@@ -26,7 +26,7 @@
   <img class="wpic" src="tw_1790933808210_….svg" alt="">          <!-- рисунок слова -->
   <div class="panel art-panel scene-office">…</div>             <!-- сцена места -->
   <div class="panel text-panel doc doc-log">
-    <div class="story-label">Ida's log, day 1</div>             <!-- ярлык документа -->
+    <div class="story-label"><span class="lbl" data-label="Ida's log, day 1"></span></div>  <!-- ярлык документа -->
     <div class="ex ex-story">Also in the box: one brown <b>button</b>. …</div>
   </div>
 </div>
@@ -35,6 +35,7 @@
 - `strip-<вид>` и `doc-<вид>` — вид документа: `scene`, `log`, `card`, `box`, `receipt`, `report`, `news`, `radio`, `announce`, `letter`, `chat`, `voice`, `poster`, `sticky`, `hand`, `overheard`. От вида зависят значок на ярлыке и оформление текста.
 - `scene-<место>` — одна из 15 сцен: `office`, `city`, `desk`, `typewriter`, `bus`, `box`, `receipt`, `island`, `harbor`, `radio`, `cafe`, `fridge`, `station`, `street`, `phone`.
 - `<b>` — слово колоды внутри фрагмента. Оно всегда выделено ровно один раз и подчёркнуто жёлтым.
+- Текст ярлыка лежит в атрибуте `data-label`, а на карточку его выводит правило `.story-label .lbl::before { content: attr(data-label) }`. Озвучка читает поле без тегов и атрибутов, поэтому начинает сразу с текста фрагмента, а не с «Box 1681, lamp card».
 - `strip-finale` — последняя карточка каждой части.
 - Внутри `art-panel` есть пустые `<i>` и `<u>` от прошлых версий оформления, CSS их скрывает.
 
@@ -53,7 +54,7 @@
 - **Сцены.** В стиле колоды добавлены 15 правил `.scene-<место> { background-image: url("data:image/svg+xml,…") }`: SVG сцен встроены прямо в CSS. В файле из `docs` их нет, чтобы его можно было читать.
 - **Рисунки слов.** Это медиафайлы `tw_<id записи>_<хэш>.svg`, их 900.
 
-**Озвучка.** На лицевой стороне `{{tts en_US:Word}}`, на обороте `{{tts en_US:Example}}`, голос берётся из системы. AnkiWeb озвучку не поддерживает и печатает содержимое тега текстом, поэтому этот текст скрыт правилом `.tts > :not(.replay-button):not(a)`.
+**Озвучка.** На лицевой стороне `{{tts en_US:Word}}`, на обороте `{{tts en_US:Example}}`, голос берётся из системы. Ярлык документа в озвучку не попадает (см. выше про `data-label`). AnkiWeb озвучку не поддерживает и печатает содержимое тега текстом, поэтому этот текст скрыт правилом `.tts > :not(.replay-button):not(a)`.
 
 ## Порядок карточек
 

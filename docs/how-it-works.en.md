@@ -26,7 +26,7 @@ The `Example` field of the card "button":
   <img class="wpic" src="tw_1790933808210_….svg" alt="">          <!-- word picture -->
   <div class="panel art-panel scene-office">…</div>             <!-- place scene -->
   <div class="panel text-panel doc doc-log">
-    <div class="story-label">Ida's log, day 1</div>             <!-- document label -->
+    <div class="story-label"><span class="lbl" data-label="Ida's log, day 1"></span></div>  <!-- document label -->
     <div class="ex ex-story">Also in the box: one brown <b>button</b>. …</div>
   </div>
 </div>
@@ -35,6 +35,7 @@ The `Example` field of the card "button":
 - `strip-<kind>` / `doc-<kind>` — the document kind: `scene`, `log`, `card`, `box`, `receipt`, `report`, `news`, `radio`, `announce`, `letter`, `chat`, `voice`, `poster`, `sticky`, `hand`, `overheard`. It sets the label icon and the text style.
 - `scene-<place>` — one of 15 scenes: `office`, `city`, `desk`, `typewriter`, `bus`, `box`, `receipt`, `island`, `harbor`, `radio`, `cafe`, `fridge`, `station`, `street`, `phone`.
 - `<b>` — the deck word inside the fragment, always exactly once, with a yellow underline.
+- The label text sits in the `data-label` attribute and is shown by `.story-label .lbl::before { content: attr(data-label) }`. Text-to-speech reads the field without tags and attributes, so it starts with the fragment itself, not with "Box 1681, lamp card".
 - `strip-finale` — the last card of each part.
 - The empty `<i>` and `<u>` elements inside `art-panel` are left over from earlier designs and are hidden by the CSS.
 
@@ -53,7 +54,7 @@ What `style.css` does not contain:
 - **Scenes.** The deck's style also has 15 rules `.scene-<place> { background-image: url("data:image/svg+xml,…") }`, with the scene SVGs embedded in the CSS. They are left out of the file in `docs` so it stays readable.
 - **Word pictures.** These are 900 media files named `tw_<note id>_<hash>.svg`.
 
-**Text-to-speech.** The front uses `{{tts en_US:Word}}` and the back `{{tts en_US:Example}}`, with the system voice. AnkiWeb has no TTS and prints the tag's content as text, so that text is hidden by `.tts > :not(.replay-button):not(a)`.
+**Text-to-speech.** The front uses `{{tts en_US:Word}}` and the back `{{tts en_US:Example}}`, with the system voice. The document label is not read aloud (see `data-label` above). AnkiWeb has no TTS and prints the tag's content as text, so that text is hidden by `.tts > :not(.replay-button):not(a)`.
 
 ## Card order
 
