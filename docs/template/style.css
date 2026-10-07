@@ -87,6 +87,8 @@ html:has(> body.nightMode), html:has(> body.night_mode) { background: #161C22; }
   background: var(--paper-2); border: 1px solid var(--rule); border-bottom: 0; border-radius: 4px 4px 0 0; }
 .story-label::before { flex: none; width: 12px; height: 12px; background: currentColor;
   -webkit-mask: var(--g) center / 12px 12px no-repeat; mask: var(--g) center / 12px 12px no-repeat; }
+/* the label text lives in data-label, so text-to-speech starts with the fragment itself */
+.story-label .lbl::before { content: attr(data-label); }
 /* the hairline the tab stands on, running along the top of the fragment */
 .story-label::after { content: ""; position: absolute; left: calc(100% + 1px); bottom: 0; width: 200vw; height: 0;
   border-top: 1px solid var(--rule); }
