@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/cover.svg" width="100%" alt="Do Not Give It Back — колода Anki: учи 3060 английских слов, читая один детектив. На фоне — ночная пристань из колоды">
+  <img src="./assets/readme/cover.svg" width="100%" alt="Wordkeep — колода Anki: учи 3060 английских слов, читая один детектив. На фоне — ночная пристань из колоды">
 </p>
 
 <p align="center"><b>Русский</b> · <a href="./README.en.md">English</a></p>
@@ -77,7 +77,7 @@
 ## Как установить
 
 1. Поставь Anki: [на компьютер](https://apps.ankiweb.net) и [на Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) — бесплатно, [на iPhone и iPad](https://apps.apple.com/app/ankimobile-flashcards/id373493387) — платно.
-2. Скачай [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) из [Releases](../../releases/latest).
+2. Скачай [`Wordkeep-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Wordkeep-Oxford-3000.apkg) из [Releases](../../releases/latest).
 3. Открой файл в Anki:
    - **Компьютер:** дважды щёлкни по файлу или выбери «Файл → Импортировать» (File → Import). Включи галочку «Импортировать конфигурации колод» (Import any deck presets) — будет 15 новых карточек в день.
    - **Android:** открой файл и выбери AnkiDroid.
@@ -117,7 +117,7 @@
 ### Изменить вид карточки — на компьютере
 
 1. «Инструменты → Управление типами записей».
-2. «Do Not Give It Back (Oxford 3000)» → «Карточки…».
+2. «Wordkeep (Oxford 3000)» → «Карточки…».
 3. «Таблица стилей» → допиши правило в конец. Например, только слово на лицевой стороне:
 
 ```css

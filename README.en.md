@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/cover-en.svg" width="100%" alt="Do Not Give It Back — an Anki deck: learn 3,060 English words by reading one mystery. Background: the night harbour from the deck">
+  <img src="./assets/readme/cover-en.svg" width="100%" alt="Wordkeep — an Anki deck: learn 3,060 English words by reading one mystery. Background: the night harbour from the deck">
 </p>
 
 <p align="center"><a href="./README.md">Русский</a> · <b>English</b></p>
@@ -79,7 +79,7 @@ Words per level: A1 775, A2 876, B1 813, B2 596.
 ## How to install
 
 1. Install Anki: [desktop](https://apps.ankiweb.net) and [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) are free, [iPhone and iPad](https://apps.apple.com/app/ankimobile-flashcards/id373493387) is paid.
-2. Download [`Do-Not-Give-It-Back-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Do-Not-Give-It-Back-Oxford-3000.apkg) from [Releases](../../releases/latest).
+2. Download [`Wordkeep-Oxford-3000.apkg`](https://github.com/phloya/wordkeep/releases/latest/download/Wordkeep-Oxford-3000.apkg) from [Releases](../../releases/latest).
 3. Open the file in Anki:
    - **Desktop:** double-click the file or choose File → Import. Enable *Import any deck presets* to get 15 new cards a day.
    - **Android:** open the file and choose AnkiDroid.
@@ -119,7 +119,7 @@ While studying it is faster: Edit or the `E` key. In the `Example` field change 
 ### Change how cards look — on a computer
 
 1. Tools → Manage Note Types.
-2. "Do Not Give It Back (Oxford 3000)" → Cards….
+2. "Wordkeep (Oxford 3000)" → Cards….
 3. Styling → add a rule at the end. For example, only the word on the front:
 
 ```css

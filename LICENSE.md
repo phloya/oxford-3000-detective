@@ -1,9 +1,9 @@
 # Лицензия · License
 
-Тексты, переводы, рисунки, сцены и оформление колоды «Do Not Give It Back» © 2026 phloya
+Тексты, переводы, рисунки, сцены и оформление колоды «Wordkeep» © 2026 phloya
 распространяются по лицензии **Creative Commons «С указанием авторства — Некоммерческая — С сохранением условий» 4.0 Международная (CC BY-NC-SA 4.0)**.
 
-The texts, translations, pictures, scenes and card design of “Do Not Give It Back” © 2026 phloya
+The texts, translations, pictures, scenes and card design of “Wordkeep” © 2026 phloya
 are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
 
 Полный текст · Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

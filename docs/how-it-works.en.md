@@ -6,7 +6,7 @@ The deck is a plain Anki package (`.apkg`): one note type, one card template and
 
 ## Note type
 
-"Do Not Give It Back (Oxford 3000)", one card per note (template "EN → RU").
+"Wordkeep (Oxford 3000)", one card per note (template "EN → RU").
 
 | Field | Content |
 |---|---|
@@ -58,4 +58,4 @@ What `style.css` does not contain:
 
 ## Card order
 
-New cards are positioned in episode order: episode 0 is the first 33 cards, and almost every episode after it has 17. The deck preset "Do Not Give It Back" sets 15 new cards and 200 reviews a day. It is applied if you enable importing deck presets.
+New cards are positioned in episode order: episode 0 is the first 33 cards, and almost every episode after it has 17. The deck preset "Wordkeep" sets 15 new cards and 200 reviews a day. It is applied if you enable importing deck presets.

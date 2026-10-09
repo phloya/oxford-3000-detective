@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="t d">
-  <title id="t">Do Not Give It Back</title>
+  <title id="t">Wordkeep</title>
   <desc id="d">Превью ссылки: колода Anki, 3060 слов Oxford 3000 в одной истории.</desc>
   <defs>
     <clipPath id="frame"><rect width="1280" height="640" rx="0"/></clipPath>
@@ -153,9 +153,9 @@
 </svg>
     <rect width="1280" height="640" fill="url(#veil)"/>
   </g>
-  <g font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="92" font-weight="700" fill="#EEE9DD" letter-spacing="-.5"><text x="87" y="160">Do Not</text><text x="87" y="266">Give It Back</text></g>
-  <rect x="87" y="312" width="73" height="7" rx="3" fill="#E2B62C"/>
-  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="37" fill="#EEE9DD"><text x="87" y="391">Учи 3060 английских слов,</text><text x="87" y="443">читая один детектив в Anki</text></g>
-  <rect x="87" y="494" width="16" height="16" rx="3" fill="#B3352B"/>
-  <text x="120" y="509" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#B4BABD">Oxford 3000 · A1 → B2 · 179 серий · перевод на русский</text>
+  <g font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="116" font-weight="700" fill="#EEE9DD" letter-spacing="-.5"><text x="87" y="230">Wordkeep</text></g>
+  <rect x="87" y="276" width="73" height="7" rx="3" fill="#E2B62C"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="37" fill="#EEE9DD"><text x="87" y="355">Учи 3060 английских слов,</text><text x="87" y="407">читая один детектив в Anki</text></g>
+  <rect x="87" y="458" width="16" height="16" rx="3" fill="#B3352B"/>
+  <text x="120" y="473" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#B4BABD">Oxford 3000 · A1 → B2 · 179 серий · перевод на русский</text>
 </svg>

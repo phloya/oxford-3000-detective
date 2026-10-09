@@ -2,7 +2,7 @@
 
 [Русский](./customize.md)
 
-Style changes are made in Anki desktop: **Tools → Manage Note Types** → "Do Not Give It Back (Oxford 3000)" → **Cards…** → the **Styling** tab. Paste a rule at the very end; it reaches all your devices after a sync.
+Style changes are made in Anki desktop: **Tools → Manage Note Types** → "Wordkeep (Oxford 3000)" → **Cards…** → the **Styling** tab. Paste a rule at the very end; it reaches all your devices after a sync.
 
 Both recipes below were tested on a real card of the deck.
 

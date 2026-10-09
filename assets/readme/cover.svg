@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
-  <title id="t">Do Not Give It Back</title>
+  <title id="t">Wordkeep</title>
   <desc id="d">Колода Anki: 3060 английских слов Oxford 3000 в одной детективной истории. На фоне — ночная пристань из колоды.</desc>
   <defs>
     <clipPath id="frame"><rect width="1200" height="440" rx="22"/></clipPath>
@@ -153,9 +153,9 @@
 </svg>
     <rect width="1200" height="440" fill="url(#veil)"/>
   </g>
-  <g font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="68" font-weight="700" fill="#EEE9DD" letter-spacing="-.5"><text x="64" y="118">Do Not</text><text x="64" y="196">Give It Back</text></g>
-  <rect x="64" y="230" width="54" height="5" rx="2" fill="#E2B62C"/>
-  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="27" fill="#EEE9DD"><text x="64" y="288">Учи 3060 английских слов,</text><text x="64" y="326">читая один детектив в Anki</text></g>
-  <rect x="64" y="363" width="12" height="12" rx="2" fill="#B3352B"/>
-  <text x="88" y="374" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#B4BABD">Oxford 3000 · A1 → B2 · 179 серий по 17 слов · перевод на русский</text>
+  <g font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="84" font-weight="700" fill="#EEE9DD" letter-spacing="-.5"><text x="64" y="160">Wordkeep</text></g>
+  <rect x="64" y="196" width="54" height="5" rx="2" fill="#E2B62C"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="27" fill="#EEE9DD"><text x="64" y="254">Учи 3060 английских слов,</text><text x="64" y="292">читая один детектив в Anki</text></g>
+  <rect x="64" y="329" width="12" height="12" rx="2" fill="#B3352B"/>
+  <text x="88" y="340" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Noto Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#B4BABD">Oxford 3000 · A1 → B2 · 179 серий по 17 слов · перевод на русский</text>
 </svg>
